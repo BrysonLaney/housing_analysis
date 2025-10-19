@@ -1,0 +1,73 @@
+As a data science major, I wanted to take what I’ve been learning in my courses and apply it to a real-world dataset. This project gave me an opportunity to strengthen my Python programming, data wrangling, and visualization skills while exploring trends in the U.S. housing market.
+The dataset used in this project is based on Zillow’s publicly available housing market time series data, which contains metrics such as home values (ZHVI), days on market, and housing inventory. These datasets provide monthly housing statistics for states, counties, and metro areas across the United States.
+ Data source: Zillow Research Data Portal
+The goal of this software was to analyze housing price trends, market demand, and regional variations. By automating the analysis and visualization process in Python, I wanted to test my ability to build a reusable data analysis pipeline that can answer questions like:
+How have home prices changed over time across the U.S.? Which states and metros are seeing the fastest growth? Where does demand appear to be strongest based on inventory and days-on-market data?
+
+I recorded a small video displaying some of my discoveries and graphs I made with the data I found!
+https://youtu.be/M3h-5a7qAEw
+
+Data Analysis Results
+    Key Questions & Insights
+
+        How have national home prices changed over time?
+
+    National median home values have grown steadily since the mid-2010s, following recovery from the 2008 housing crash.
+
+        Which states are experiencing the strongest price growth?
+
+    By calculating year-over-year (YoY) changes in home values, the script highlights top-performing states in the most recent data period.
+
+        Where is demand strongest?
+
+    Using a custom Demand Index (based on declining inventory and faster days on market), we can see which states show the highest buyer competition.
+
+        How do metros differ from states?
+
+    Metro-level analysis reveals localized trends, showing how growth patterns in major cities differ from overall state averages.
+
+
+Development Environment:
+
+    Tools & Environment:
+
+        Visual Studio Code
+
+        Python 3.11 (virtual environment with venv)
+
+        Command-line execution for reproducible outputs
+
+        CSV and PNG outputs for data export and visualization
+
+    Programming Language & Libraries:
+
+        Python — used for data cleaning, analysis, and visualization
+
+        pandas — data manipulation and aggregation
+
+        numpy — numerical operations
+
+        matplotlib — generating visualizations and charts
+
+        pathlib and argparse — for file handling and command-line arguments
+
+# Useful Websites
+
+{Make a list of websites that you found helpful in this project}
+* https://matplotlib.org/stable/contents.html
+* https://pandas.pydata.org/docs/
+* https://numpy.org/doc/stable/
+* https://realpython.com/python-csv/
+
+# Future Work
+
+So after building this script, I noticed some things I could add or improve:
+    Add interactive dashboard support (e.g., Streamlit or Dash) for visual exploration
+
+    Integrate external economic indicators like interest rates or income data
+
+    Automate dataset updates through Zillow’s data feed
+
+    Expand analysis to forecast future home prices using regression or time-series models
+
+    Improve visual styling and annotation of charts
